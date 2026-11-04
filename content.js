@@ -1,6 +1,6 @@
 /* =====================================================================
    CAMPAGNE 2054 (Confrérie Universelle, chapitre #42, Tacoma)
-   Nœuds : SAN-01, ES-02/06, SPU-03/05/07/08, CPU-04/09.
+   Nœuds : SAN-01, RTG-SEATTLE, ES-02/06, SPU-03/05/07/08, CPU-04/09.
    ===================================================================== */
 const CONFIG = {
   era: 2054,
@@ -229,7 +229,54 @@ Inverser la ventilation sans masque expose tout le personnel à la phéromone de
 ## Conséquence
 Au matin, le chapitre rouvre ses portes comme si de rien n'était.
 
-L'HARMONIE SERA RESTAURÉE.`}
+L'HARMONIE SERA RESTAURÉE.`},
+ {id:"news", dir:"/RTG-SEATTLE", name:"fil_actu_seattle_2054.txt", level:0, title:"Fil d'actualité — Seattle 2054", kw:["actualite", "seattle", "lone star", "barrens", "tacoma", "news"], summary:"Les grandes nouvelles de Seattle, de juillet à fin octobre 2054.", text:`## RTG Seattle — Fil d'actualité public
+Dernière mise à jour : 28 octobre 2054
+
+## 28 octobre
+- Lone Star annonce un renfort de patrouilles dans les Puyallup Barrens après plusieurs plaintes de disparitions. Le porte-parole parle de « départs volontaires ».
+- Tacoma : la Confrérie Universelle sert son 20 000e repas de l'année. Le maire salue « une main tendue aux oubliés ».
+
+## 19 octobre
+- Pluies acides de catégorie 3 sur le Sound : écoles fermées dans le Redmond ouest.
+- Grève surprise des livreurs de nutrisoja à Everett. Les rayons des supermarchés se vident.
+
+## 14 octobre
+- Les clinics de rue de Tacoma signalent une hausse des cas de malnutrition chez les SINless.
+- Un decker indépendant interpellé après une intrusion dans un nœud municipal. Il serait en détention à Lone Star HQ.
+
+## 2 octobre
+- Les Orks de l'Underground manifestent contre la fermeture de trois soupes populaires. Aucun blessé.
+- Un convoi corporatiste est attaqué sur l'I-5 : pertes importantes, aucun suspect.
+
+## Septembre
+- Premier pic de pollution de la saison. Alerte respiratoire à Seattle et Tacoma.
+- Ouverture du nouveau chapitre de la Confrérie Universelle à Tacoma.
+
+## Juillet-août
+- Vague de chaleur record. Coupures d'électricité dans les Barrens.
+- Un convoi de ravitaillement de Puyallup disparaît sans laisser de trace.`},
+ {id:"meteo", dir:"/RTG-SEATTLE", name:"releves_meteo_seattle_2054.txt", level:0, title:"Relevés météo — Seattle, octobre 2054", kw:["meteo", "pluie", "acide", "brouillard", "temperature"], summary:"Relevés du bulletin RTG pour octobre 2054.", text:`## RTG Seattle — Bulletin météo
+Zone : Seattle / Tacoma / Puyallup
+
+## Semaine du 1er au 7 octobre
+- Température : 11-15 °C · Pluie fine, brouillard matinal sur le Sound
+- Indice de pollution : modéré
+
+## Semaine du 8 au 14 octobre
+- Température : 9-13 °C · Averses régulières
+- Indice de pollution : élevé · Pluie acide faible le 14, soirée
+
+## Semaine du 15 au 21 octobre
+- Température : 8-12 °C · Pluies acides de catégorie 3 le 19
+- Fermeture des écoles à Redmond ouest
+
+## Semaine du 22 au 28 octobre
+- Température : 6-10 °C · Brouillard épais la nuit du 26 sur Tacoma
+- Visibilité réduite à 40 m dans les Barrens
+
+## Prévision
+Refroidissement, pluie persistante. Premières gelées possibles dans les Barrens après le 5 novembre.`}
 ];
 const HANDLES = {"Pigeon":["PG","#33ff55"],"Rail":["RL","#ffb000"],"Sœur_Sarah":["SS","#3a8bff"],"Mouse":["MO","#ff7a1a"],"Elena_M":["EM","#3a8bff"],"Anonyme":["??","#4f8a4f"]};
 const THREADS = [
@@ -247,4 +294,4 @@ const THREADS = [
   re:[["Pigeon","Fais gaffe : une GLACE brouilleuse derrière le nœud admin. Tu te fais éjecter."]]}
 ];
 const CATS=[["RUE & RUMEURS",["RUE & RUMEURS"]],["MATRICE & TECH",["MATRICE & TECH"]]];
-const DIRS=["/SAN-01","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
+const DIRS=["/SAN-01","/RTG-SEATTLE","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
