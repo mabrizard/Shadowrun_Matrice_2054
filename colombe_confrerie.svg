@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260"><rect width="400" height="260" fill="#f3eee2"/>
+<circle cx="200" cy="120" r="84" fill="none" stroke="#c9a85a" stroke-width="3"/><circle cx="200" cy="120" r="72" fill="none" stroke="#c9a85a" stroke-width="1" stroke-dasharray="3 5"/>
+<path d="M130 130 C150 80 200 70 235 98 C255 70 285 66 300 76 C284 80 276 92 274 106 C288 112 296 124 296 124 C276 124 262 120 252 114 C240 150 190 170 150 150 C160 146 170 140 176 134 C158 138 142 136 130 130 Z" fill="#fffaf0" stroke="#8f6b1e" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="268" cy="94" r="3" fill="#8f6b1e"/><path d="M296 92 l22 4 l-20 8z" fill="#c9a85a"/>
+<text x="200" y="232" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#8f6b1e" letter-spacing="4">LA CONFRÉRIE UNIVERSELLE</text>
+<text x="200" y="250" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#857d6b" letter-spacing="3">CHAPITRE #42 · TACOMA</text></svg>
