@@ -193,6 +193,9 @@ body.deep::after{animation:flick 2.2s infinite}
 .topo-svg text{font:9px "Courier New",monospace;text-anchor:middle;fill:var(--cyan);pointer-events:none}
 .topo-svg text.dim{fill:var(--dim)}
 .lvl.arch{color:#ffb000;border-color:#ffb000}.chip.on{background:var(--cyan);color:var(--bg)}.archbar{color:#ffb000}
+/* page claire (façade) : pas de lignes de balayage, elles gênent la lecture */
+body.pagelit::after{background:none;animation:none}
+#viewer.look-facade{text-shadow:none}
 </style>
 </head>
 <body>
@@ -583,6 +586,7 @@ function showFile(f){
   state.selected=f.id;renderList();
   document.getElementById("ar").classList.add("reading");
   viewer.className=f.look?"look-"+f.look:"";
+  document.body.classList.toggle("pagelit",f.look==="facade");
   viewer.innerHTML=`<button class="backbtn" onclick="backToList()">◂ RETOUR</button>`+
     (f.look&&CONFIG.looks&&CONFIG.looks[f.look]?`<div class="lookbar">${esc(CONFIG.looks[f.look])}</div>`:"")+
     `<h2>${esc(f.title)}</h2><div class="meta">${f.dir}/${f.name} · ${lvlLabel(f)} · HOST ${CONFIG.hostId}</div>`+
@@ -762,7 +766,7 @@ lb.addEventListener("pointerup",lbUp);lb.addEventListener("pointercancel",lbUp);
 lbImg.addEventListener("dragstart",e=>e.preventDefault());
 
 /* ---------- Init ---------- */
-function backToList(){document.getElementById("ar").classList.remove("reading")}
+function backToList(){document.getElementById("ar").classList.remove("reading");document.body.classList.remove("pagelit")}
 /* Liens directs pour QR codes : index.html#f=marshall (ids : geo, news, meteo, marshall, janus, ghost) */
 function toast(t){
   let e=document.getElementById("toast");
@@ -777,7 +781,7 @@ function resetAll(){
   state.unlocked={0:true};state.trace=0;state.locked=false;state.selected=null;state.pending=null;
   document.getElementById("lockdown").classList.remove("show");closeModal();
   document.getElementById("ar").classList.remove("reading");
-  viewer.className="";
+  viewer.className="";document.body.classList.remove("pagelit");
   viewer.innerHTML='<div class="empty">// AUCUN FICHIER SÉLECTIONNÉ //<br><br>Sélectionnez un fichier dans l\'arborescence.</div>';
   updateGauges();renderList();
 }
