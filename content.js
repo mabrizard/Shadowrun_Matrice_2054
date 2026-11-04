@@ -230,53 +230,40 @@ Inverser la ventilation sans masque expose tout le personnel à la phéromone de
 Au matin, le chapitre rouvre ses portes comme si de rien n'était.
 
 L'HARMONIE SERA RESTAURÉE.`},
- {id:"news", dir:"/RTG-SEATTLE", name:"fil_actu_seattle_2054.txt", level:0, title:"Fil d'actualité — Seattle 2054", kw:["actualite", "seattle", "lone star", "barrens", "tacoma", "news"], summary:"Les grandes nouvelles de Seattle, de juillet à fin octobre 2054.", text:`## RTG Seattle — Fil d'actualité public
-Dernière mise à jour : 28 octobre 2054
+ {id:"news", dir:"/RTG-SEATTLE", name:"fil_actu_seattle_2054.txt", level:0, title:"RTG-Seattle — Newsfeed public", kw:["actualite", "seattle", "lone star", "barrens", "tacoma", "news"], summary:"Flux d'actualité de mai à octobre 2054 : Confrérie, mégacorpos, frontières, gangs.", text:`## RTG-Seattle // Newsfeed matriciel public — flux continu
+Mise à jour : octobre 2054
 
-## 28 octobre
-- Lone Star annonce un renfort de patrouilles dans les Puyallup Barrens après plusieurs plaintes de disparitions. Le porte-parole parle de « départs volontaires ».
-- Tacoma : la Confrérie Universelle sert son 20 000e repas de l'année. Le maire salue « une main tendue aux oubliés ».
+## 12 octobre — Social / caritatif
+La Confrérie Universelle inaugure un nouveau centre d'accueil et de repas chauds à Tacoma. Le porte-parole salue une « victoire contre l'isolement des SINless ». Les autorités locales félicitent l'initiative caritative face à la pauvreté des Barrens.
 
-## 19 octobre
-- Pluies acides de catégorie 3 sur le Sound : écoles fermées dans le Redmond ouest.
-- Grève surprise des livreurs de nutrisoja à Everett. Les rayons des supermarchés se vident.
+## 28 septembre — Corporatif / mégacorpos
+Renraku et les Big Ten renforcent leurs infrastructures dans le centre-ville de Seattle. Des rumeurs font état de mouvements de sécurité accrus autour de l'Arcologie Renraku.
 
-## 14 octobre
-- Les clinics de rue de Tacoma signalent une hausse des cas de malnutrition chez les SINless.
-- Un decker indépendant interpellé après une intrusion dans un nœud municipal. Il serait en détention à Lone Star HQ.
+## 14 août — Sécurité / frontières
+Poste-frontière de Salish-Shidhe : la patrouille frontalière et les drones de surveillance signalent une hausse des tentatives de contrebande. Lone Star met en garde contre les passeurs clandestins (« Coyotes ») opérant entre les Nations amérindiennes et Seattle.
 
-## 2 octobre
-- Les Orks de l'Underground manifestent contre la fermeture de trois soupes populaires. Aucun blessé.
-- Un convoi corporatiste est attaqué sur l'I-5 : pertes importantes, aucun suspect.
+## 2 juillet — Ombres & gangs
+Nuit de tensions à Redmond : des heurts éclatent entre les Crimson Crush et des milices locales. La police corporatiste délimite un périmètre de sécurité autour des axes principaux.
 
-## Septembre
-- Premier pic de pollution de la saison. Alerte respiratoire à Seattle et Tacoma.
-- Ouverture du nouveau chapitre de la Confrérie Universelle à Tacoma.
+## 19 mai — Environnement / Redmond
+Le service d'inspection sanitaire confirme des émanations toxiques persistantes dans la zone de Glow City (Redmond), attribuées aux séquelles de la fusion partielle de Trojan-Satsop.`},
+ {id:"meteo", dir:"/RTG-SEATTLE", name:"releves_meteo_seattle_2054.txt", level:0, title:"Météo-Net Seattle — octobre 2054", kw:["meteo", "pluie", "acide", "brouillard", "temperature"], summary:"Relevés en temps réel : pluie acide, AQI 285, prévisions par districts.", text:`## Météo-Net Seattle // Relevés en temps réel — octobre 2054
 
-## Juillet-août
-- Vague de chaleur record. Coupures d'électricité dans les Barrens.
-- Un convoi de ravitaillement de Puyallup disparaît sans laisser de trace.`},
- {id:"meteo", dir:"/RTG-SEATTLE", name:"releves_meteo_seattle_2054.txt", level:0, title:"Relevés météo — Seattle, octobre 2054", kw:["meteo", "pluie", "acide", "brouillard", "temperature"], summary:"Relevés du bulletin RTG pour octobre 2054.", text:`## RTG Seattle — Bulletin météo
-Zone : Seattle / Tacoma / Puyallup
+## Conditions générales
+- Ciel : couverture nuageuse dense, cendres de combustion et smog ambiant
+- Précipitations : pluie acide intermittente (pH 3,8)
+- Température moyenne : 12 °C à 15 °C
+- Risque sanitaire : hypothermie rapide en cas de vêtements humides prolongés
 
-## Semaine du 1er au 7 octobre
-- Température : 11-15 °C · Pluie fine, brouillard matinal sur le Sound
-- Indice de pollution : modéré
+## Indices environnementaux
+- Indice de pollution de l'air (AQI) : 285 / 500 — alerte élevée
+- Recommandation : respirateur ou masque filtrant conseillé hors des dômes corporatifs
+- Rayonnement UV-A : modéré (atténué par les nuages et la pollution)
 
-## Semaine du 8 au 14 octobre
-- Température : 9-13 °C · Averses régulières
-- Indice de pollution : élevé · Pluie acide faible le 14, soirée
-
-## Semaine du 15 au 21 octobre
-- Température : 8-12 °C · Pluies acides de catégorie 3 le 19
-- Fermeture des écoles à Redmond ouest
-
-## Semaine du 22 au 28 octobre
-- Température : 6-10 °C · Brouillard épais la nuit du 26 sur Tacoma
-- Visibilité réduite à 40 m dans les Barrens
-
-## Prévision
-Refroidissement, pluie persistante. Premières gelées possibles dans les Barrens après le 5 novembre.`}
+## Prévisions par districts
+- Downtown / Renton : bruine acide légère, systèmes de neutralisation chimique actifs
+- Redmond / Puyallup : averses acides corrosives, accumulation de boues toxiques
+- Puget Sound / front de mer : vents froids du Pacifique, brume épaisse, humidité 98 %`}
 ];
 const HANDLES = {"Pigeon":["PG","#33ff55"],"Rail":["RL","#ffb000"],"Sœur_Sarah":["SS","#3a8bff"],"Mouse":["MO","#ff7a1a"],"Elena_M":["EM","#3a8bff"],"Anonyme":["??","#4f8a4f"]};
 const THREADS = [
