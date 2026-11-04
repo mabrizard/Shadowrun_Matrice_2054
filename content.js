@@ -15,6 +15,8 @@ const CONFIG = {
   jackOut: "⏻ JACK OUT",
   tabAR: "▦ NŒUDS",
   tabCLI: "▮ CONSOLE",
+  headerLogos: ["fuchi", "rtg"],      /* bandeau sous l'en-tête */
+  bgImage: "globe",                    /* filigrane : globe filaire */
   topology: true,
   deck: {name:"FUCHI CYBER-4", port:"SAN-01 // TACOMA-UB-NET", ram:10, programs:[
     {n:"Stealth v2.1", mp:3, on:true, note:"masquage de signature"},
@@ -46,7 +48,9 @@ const CONFIG = {
   feedSub: "Accès libre · Messages anonymes, non vérifiés, probablement surveillés.",
   feedSearchPlaceholder: "⌕ Rechercher dans le forum…"
 };
-const IMAGES = {"colombe": "colombe_confrerie.svg", "plan": "plan_chapitre.svg", "ruche": "ruche_hexagones.svg"};
+const IMAGES = {colombe:"colombe_confrerie.svg",plan:"plan_chapitre.svg",ruche:"ruche_hexagones.svg",
+  logo:"logo_confrerie.svg", logoDeep:"logo_confrerie_ruche.svg",   /* logo d'en-tête : façade, puis version « Ruche » après le niveau rouge */
+  fuchi:"logo_fuchi.svg", rtg:"logo_rtg.svg", globe:"globe_filaire.svg", blackIC:"icone_glace_noire.svg"};
 const CODES = {1:"HARMONIE", 2:"TRIEUR", 3:"LA-REINE"};
 const LEVEL_NAMES = {0:"BLEU · PUBLIC",1:"ORANGE · PERSONNEL",2:"ROUGE · GLACE NOIRE",3:"NOIR · CŒUR DU NID"};
 const FILES = [

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60"><rect width="220" height="60" fill="#050a05"/>
+<path d="M8 8 H44 L36 18 H18 V26 H34 L28 34 H18 V52 H8Z" fill="none" stroke="#33ff55" stroke-width="2.5"/>
+<path d="M52 12 V40 L60 52 H84 L92 40 V12" fill="none" stroke="#33ff55" stroke-width="2.5"/>
+<text x="104" y="32" font-family="monospace" font-weight="bold" font-size="22" fill="#33ff55" letter-spacing="3">FUCHI</text>
+<text x="104" y="48" font-family="monospace" font-size="9" fill="#4f8a4f" letter-spacing="2">INDUSTRIAL ELECTRONICS</text></svg>

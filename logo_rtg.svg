@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60"><rect width="220" height="60" fill="#050a05"/>
+<g fill="none" stroke="#ffb000" stroke-width="1.5"><rect x="6" y="6" width="48" height="48"/><path d="M6 22 H54 M6 38 H54 M22 6 V54 M38 6 V54" stroke-opacity=".4"/>
+<path d="M30 12 V24 M25 24 H35 L33 32 H27 Z M30 32 V48 M24 48 H36" stroke="#00e5ff" stroke-width="2"/></g>
+<text x="64" y="30" font-family="monospace" font-weight="bold" font-size="20" fill="#ffb000" letter-spacing="2">RTG SEATTLE</text>
+<text x="64" y="46" font-family="monospace" font-size="10" fill="#00e5ff" letter-spacing="3">NŒUD #406 · LTG TACOMA</text></svg>
