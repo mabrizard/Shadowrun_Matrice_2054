@@ -233,7 +233,8 @@ Les orks et les trolls offrent la meilleure constitution. Les magiciens éveill�
 
 ## Sous-menu masqué
 Option « T » : accès au nœud SPU-07 — code « TRIEUR »`},
- {id:"journal", dir:"/SPU-05", name:"journal_interne_benevole.txt", level:1, title:"Journal d'Elena_M — bénévole santé", kw:["elena", "journal", "gabriel", "darryl", "ruche"], summary:"Fichier personnel d'une bénévole qui commence à comprendre.", text:`## FICHIER PERSONNEL — NE PAS COPIER
+ {id:"journal", dir:"/SPU-05", name:"journal_interne_benevole.txt", level:1, title:"Journal d'Elena_M — bénévole santé", kw:["elena", "journal", "gabriel", "darryl", "ruche"], summary:"Confrérie Universelle, chapitre #42 — fichier personnel d'une bénévole qui commence à comprendre.", text:`## CONFRÉRIE UNIVERSELLE — CHAPITRE #42
+## FICHIER PERSONNEL — NE PAS COPIER
 Propriétaire : Elena_M@UB-Net-Tacoma (bénévole santé) · Dernière modification : 28 octobre 2054
 
 ## 3 octobre
