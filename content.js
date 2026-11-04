@@ -50,7 +50,7 @@ const CONFIG = {
 };
 const IMAGES = {colombe:"logo_confrerie_grand.png",plan:"plan_chapitre.svg",ruche:"logo_confrerie_ruche_grand.png",
   logo:"logo_confrerie.png", logoDeep:"logo_confrerie_ruche.png",   /* logo d'en-tête : façade, puis version « Ruche » après le niveau rouge */
-  fuchi:"logo_fuchi.svg", rtg:"logo_rtg.png", globe:"globe_filaire.jpg", blackIC:"icone_glace_noire.png"};
+  fuchi:"logo_fuchi.png", rtg:"logo_rtg.png", globe:"globe_filaire.jpg", blackIC:"icone_glace_noire.png"};
 const CODES = {1:"HARMONIE", 2:"TRIEUR", 3:"LA-REINE"};
 const LEVEL_NAMES = {0:"BLEU · PUBLIC",1:"ORANGE · PERSONNEL",2:"ROUGE · GLACE NOIRE",3:"NOIR · CŒUR DU NID"};
 const FILES = [
