@@ -84,6 +84,52 @@ Le service d'inspection sanitaire confirme des émanations toxiques persistantes
 - Downtown / Renton : bruine acide légère, systèmes de neutralisation chimique actifs
 - Redmond / Puyallup : averses acides corrosives, accumulation de boues toxiques
 - Puget Sound / front de mer : vents froids du Pacifique, brume épaisse, humidité 98 %`},
+ {id:"global", dir:"/RTG-GLOBAL", name:"depeches_politiques_2054.txt", level:0, title:"RTG-Global — Politique & diplomatie (2054)", kw:["ucas", "elections", "tir tairngire", "denver", "aztlan", "ghostwalker", "foret-noire", "politique"], summary:"Dépêches politiques : UCAS, Tír Tairngire, Denver, Europe.", text:`## RTG-Global // Dépêches politiques & diplomatie — 2054
+
+## 8 novembre — UCAS / élections anticipées
+Tensions à Washington D.C. : la crise économique et le débat sur le statut des SINless pèsent sur l'administration UCAS. Les instituts de sondage prévoient une campagne électorale particulièrement agitée pour la présidence.
+
+## 22 septembre — Tír Tairngire / isolationnisme
+Le Conseil des Princes du Tír Tairngire (la nation elfique au sud de Seattle) renforce les patrouilles magiques et le confinement à sa frontière. Les autorités dénoncent la hausse du trafic de puces BTL et du braconnage de réactifs.
+
+## 11 août — Denver / conflit de territoire
+Aztlan et la Cour corporatiste s'affrontent indirectement dans la ville divisée de Denver. Le Grand Dragon Ghostwalker maintient une neutralité armée, mais la sécurité des secteurs ex-américains a été doublée.
+
+## 15 mai — EAA / république troll de la Forêt-Noire
+En Europe, la république troll de la Forêt-Noire intensifie ses échanges diplomatiques avec le duché de Pomorya. Des milices orks réclament une représentation politique accrue dans les montagnes du Sud.`},
+ {id:"matrixtech", dir:"/MATRIX-TECH", name:"matrix_tech_news_2054.txt", level:0, title:"Matrix-Tech News — Composants & cybernétique", kw:["fuchi", "cyber-5", "renraku", "arcologie", "ares", "btl", "yamatetsu", "cyberdeck"], summary:"Guerre des composants : Fuchi, Renraku, Ares, alerte BTL.", text:`## Matrix-Tech News // Guerre des composants & cybernétique
+
+## 19 octobre — Fuchi Industrial / leader du decking
+Fuchi annonce la sortie prochaine du cyberdeck « Fuchi Cyber-5 », promettant une mémoire vive augmentée à 12 MP et une architecture de processeur optimisée contre la GLACE noire. La valeur boursière de Fuchi s'envole.
+
+## 3 septembre — Renraku Arcology / inauguration prochaine (2055)
+Le chantier géant de l'Arcologie Renraku de Seattle touche à sa fin. Ce complexe autonome de 300 étages est présenté comme le joyau technologique du XXIe siècle, prévu pour accueillir plus de 90 000 résidents corporatistes dès début 2055.
+
+## 14 juin — Ares Macrotechnology / défense & armement
+Ares dévoile sa nouvelle gamme de puces réflexes câblées et d'armures de sécurité tactiques. Des contrats d'équipement exclusifs ont été signés avec plusieurs polices privées nord-américaines.
+
+## 2 avril — BTL & bioware / alerte sanitaire
+La corporation Yamatetsu met en garde contre la circulation de puces « Better-Than-Life » (BTL) de contrebande survoltées au fil de carbone, provoquant des grilles synaptiques fatales.`},
+ {id:"tridpop", dir:"/TRIDEO-POP", name:"trideo_pop_medias_2054.txt", level:0, title:"Tridéo-Pop — Spectacles, célébrités & Wyrm Talk", kw:["dunkelzahn", "wyrm talk", "simsense", "horizon", "urban brawl", "media"], summary:"Médias, simsense, célébrités et culte du dragon.", text:`## Tridéo-Pop // Spectacles, célébrités & culte du dragon
+
+## 30 octobre — Média / Wyrm Talk en direct
+Le Grand Dragon Dunkelzahn bat des records d'audience mondiaux lors du dernier épisode de son émission Wyrm Talk. Interrogé sur la politique humaine, le dragon est resté énigmatique : « La métahumanité prépare son avenir, mais ignore encore la nature des tempêtes à venir. »
+
+## 12 août — Simsense / sensation du box-office
+Le dernier film en simsense immersif d'Horizon enregistre plus de 50 millions de téléchargements sur la Matrice en 48 heures. Le retour haptique haute définition s'impose comme le nouveau standard.
+
+## 21 mai — Sport / Urban Brawl
+Le championnat mondial d'Urban Brawl s'ouvre à Néo-Tokyo sous de fortes tensions. Les équipes corporatistes rivales promettent un niveau de violence inédit pour cette saison 2054-2055.`},
+ {id:"shadowland", dir:"/SHADOWLAND-BBS", name:"shadowland_bbs_2054.txt", level:0, title:"Shadowland BBS — Fil clandestin (2054)", kw:["shadowland", "fastjack", "captain lazer", "grrl", "firewatch", "orichalque", "vans noirs", "sinless"], summary:"Rumeurs des ombres : Firewatch, vans noirs, orichalque.", text:`## Shadowland BBS // Fil clandestin — accès décrypté (2054)
+
+## Fastjack
+Des mouvements de fonds anormaux ont été détectés entre Detroit et Chicago. Ares semble rapatrier ses équipes d'extraction d'élite « Firewatch ». Quelqu'un sait ce qu'ils ont trouvé dans l'Illinois ?
+
+## Captain Lazer
+Si vous runnez à Tacoma ou Redmond, évitez les patrouilles non identifiées. Des vans noirs sans logo embarquent des SINless en pleine nuit. Ce ne sont pas des flics de Lone Star, leurs armes n'ont pas de marquage.
+
+## /dev/grrl
+La rumeur dit qu'un gros lot d'orichalque brut a été sorti clandestinement du Tír Tairngire. Les chasseurs de talismans sont sur les dents.`},
  {id:"san01", dir:"/SAN-01", name:"accueil_noeud.txt", level:0, look:"facade", title:"SAN-01 — Nœud d'entrée général", kw:["accueil", "confrérie", "harmonie", "san"], summary:"Message d'accueil du nœud public du chapitre.", text:`## Bienvenue
 « Bienvenue à la Confrérie. L'harmonie commence par l'écoute. »
 Chapitre #42 — Tacoma (Seattle). Accès libre, GLACE blanche passive.
@@ -287,4 +333,4 @@ const THREADS = [
   re:[["Pigeon","Fais gaffe : une GLACE brouilleuse derrière le nœud admin. Tu te fais éjecter."]]}
 ];
 const CATS=[["RUE & RUMEURS",["RUE & RUMEURS"]],["MATRICE & TECH",["MATRICE & TECH"]]];
-const DIRS=["/RTG-SEATTLE","/SAN-01","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
+const DIRS=["/RTG-SEATTLE","/RTG-GLOBAL","/MATRIX-TECH","/TRIDEO-POP","/SHADOWLAND-BBS","/SAN-01","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
