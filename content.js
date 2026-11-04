@@ -16,6 +16,12 @@ const CONFIG = {
   tabAR: "▦ NŒUDS",
   tabCLI: "▮ CONSOLE",
   topology: true,
+  deck: {name:"FUCHI CYBER-4", port:"SAN-01 // TACOMA-UB-NET", ram:10, programs:[
+    {n:"Stealth v2.1", mp:3, on:true, note:"masquage de signature"},
+    {n:"De-Rez v1.4", mp:3, on:true, note:"prêt à l'attaque"},
+    {n:"Analyseur SPU", mp:2, on:true, note:"décryptage de fichiers"},
+    {n:"Sonde v1.0", mp:2, on:false, note:"scan de nœud"},
+    {n:"Bouclier v1.1", mp:3, on:false, note:"protection contre la GLACE"}]},
   topoRoot: "SAN-01",
   themeClass: "crt era2054",
   theme: {"--bg":"#050a05","--panel":"#081008","--line":"#1b4a1b","--green":"#33ff55","--cyan":"#ffb000","--amber":"#ffb000","--red":"#ff3b3b","--text":"#b8f5b8","--dim":"#4f8a4f"},
