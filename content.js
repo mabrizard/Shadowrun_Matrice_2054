@@ -50,6 +50,40 @@ const IMAGES = {"colombe": "colombe_confrerie.svg", "plan": "plan_chapitre.svg",
 const CODES = {1:"HARMONIE", 2:"TRIEUR", 3:"LA-REINE"};
 const LEVEL_NAMES = {0:"BLEU · PUBLIC",1:"ORANGE · PERSONNEL",2:"ROUGE · GLACE NOIRE",3:"NOIR · CŒUR DU NID"};
 const FILES = [
+ {id:"news", dir:"/RTG-SEATTLE", name:"fil_actu_seattle_2054.txt", level:0, title:"RTG-Seattle — Newsfeed public", kw:["actualite", "seattle", "lone star", "barrens", "tacoma", "news"], summary:"Flux d'actualité de mai à octobre 2054 : Confrérie, mégacorpos, frontières, gangs.", text:`## RTG-Seattle // Newsfeed matriciel public — flux continu
+Mise à jour : octobre 2054
+
+## 12 octobre — Social / caritatif
+La Confrérie Universelle inaugure un nouveau centre d'accueil et de repas chauds à Tacoma. Le porte-parole salue une « victoire contre l'isolement des SINless ». Les autorités locales félicitent l'initiative caritative face à la pauvreté des Barrens.
+
+## 28 septembre — Corporatif / mégacorpos
+Renraku et les Big Ten renforcent leurs infrastructures dans le centre-ville de Seattle. Des rumeurs font état de mouvements de sécurité accrus autour de l'Arcologie Renraku.
+
+## 14 août — Sécurité / frontières
+Poste-frontière de Salish-Shidhe : la patrouille frontalière et les drones de surveillance signalent une hausse des tentatives de contrebande. Lone Star met en garde contre les passeurs clandestins (« Coyotes ») opérant entre les Nations amérindiennes et Seattle.
+
+## 2 juillet — Ombres & gangs
+Nuit de tensions à Redmond : des heurts éclatent entre les Crimson Crush et des milices locales. La police corporatiste délimite un périmètre de sécurité autour des axes principaux.
+
+## 19 mai — Environnement / Redmond
+Le service d'inspection sanitaire confirme des émanations toxiques persistantes dans la zone de Glow City (Redmond), attribuées aux séquelles de la fusion partielle de Trojan-Satsop.`},
+ {id:"meteo", dir:"/RTG-SEATTLE", name:"releves_meteo_seattle_2054.txt", level:0, title:"Météo-Net Seattle — octobre 2054", kw:["meteo", "pluie", "acide", "brouillard", "temperature"], summary:"Relevés en temps réel : pluie acide, AQI 285, prévisions par districts.", text:`## Météo-Net Seattle // Relevés en temps réel — octobre 2054
+
+## Conditions générales
+- Ciel : couverture nuageuse dense, cendres de combustion et smog ambiant
+- Précipitations : pluie acide intermittente (pH 3,8)
+- Température moyenne : 12 °C à 15 °C
+- Risque sanitaire : hypothermie rapide en cas de vêtements humides prolongés
+
+## Indices environnementaux
+- Indice de pollution de l'air (AQI) : 285 / 500 — alerte élevée
+- Recommandation : respirateur ou masque filtrant conseillé hors des dômes corporatifs
+- Rayonnement UV-A : modéré (atténué par les nuages et la pollution)
+
+## Prévisions par districts
+- Downtown / Renton : bruine acide légère, systèmes de neutralisation chimique actifs
+- Redmond / Puyallup : averses acides corrosives, accumulation de boues toxiques
+- Puget Sound / front de mer : vents froids du Pacifique, brume épaisse, humidité 98 %`},
  {id:"san01", dir:"/SAN-01", name:"accueil_noeud.txt", level:0, look:"facade", title:"SAN-01 — Nœud d'entrée général", kw:["accueil", "confrérie", "harmonie", "san"], summary:"Message d'accueil du nœud public du chapitre.", text:`## Bienvenue
 « Bienvenue à la Confrérie. L'harmonie commence par l'écoute. »
 Chapitre #42 — Tacoma (Seattle). Accès libre, GLACE blanche passive.
@@ -235,41 +269,7 @@ Inverser la ventilation sans masque expose tout le personnel à la phéromone de
 ## Conséquence
 Au matin, le chapitre rouvre ses portes comme si de rien n'était.
 
-L'HARMONIE SERA RESTAURÉE.`},
- {id:"news", dir:"/RTG-SEATTLE", name:"fil_actu_seattle_2054.txt", level:0, title:"RTG-Seattle — Newsfeed public", kw:["actualite", "seattle", "lone star", "barrens", "tacoma", "news"], summary:"Flux d'actualité de mai à octobre 2054 : Confrérie, mégacorpos, frontières, gangs.", text:`## RTG-Seattle // Newsfeed matriciel public — flux continu
-Mise à jour : octobre 2054
-
-## 12 octobre — Social / caritatif
-La Confrérie Universelle inaugure un nouveau centre d'accueil et de repas chauds à Tacoma. Le porte-parole salue une « victoire contre l'isolement des SINless ». Les autorités locales félicitent l'initiative caritative face à la pauvreté des Barrens.
-
-## 28 septembre — Corporatif / mégacorpos
-Renraku et les Big Ten renforcent leurs infrastructures dans le centre-ville de Seattle. Des rumeurs font état de mouvements de sécurité accrus autour de l'Arcologie Renraku.
-
-## 14 août — Sécurité / frontières
-Poste-frontière de Salish-Shidhe : la patrouille frontalière et les drones de surveillance signalent une hausse des tentatives de contrebande. Lone Star met en garde contre les passeurs clandestins (« Coyotes ») opérant entre les Nations amérindiennes et Seattle.
-
-## 2 juillet — Ombres & gangs
-Nuit de tensions à Redmond : des heurts éclatent entre les Crimson Crush et des milices locales. La police corporatiste délimite un périmètre de sécurité autour des axes principaux.
-
-## 19 mai — Environnement / Redmond
-Le service d'inspection sanitaire confirme des émanations toxiques persistantes dans la zone de Glow City (Redmond), attribuées aux séquelles de la fusion partielle de Trojan-Satsop.`},
- {id:"meteo", dir:"/RTG-SEATTLE", name:"releves_meteo_seattle_2054.txt", level:0, title:"Météo-Net Seattle — octobre 2054", kw:["meteo", "pluie", "acide", "brouillard", "temperature"], summary:"Relevés en temps réel : pluie acide, AQI 285, prévisions par districts.", text:`## Météo-Net Seattle // Relevés en temps réel — octobre 2054
-
-## Conditions générales
-- Ciel : couverture nuageuse dense, cendres de combustion et smog ambiant
-- Précipitations : pluie acide intermittente (pH 3,8)
-- Température moyenne : 12 °C à 15 °C
-- Risque sanitaire : hypothermie rapide en cas de vêtements humides prolongés
-
-## Indices environnementaux
-- Indice de pollution de l'air (AQI) : 285 / 500 — alerte élevée
-- Recommandation : respirateur ou masque filtrant conseillé hors des dômes corporatifs
-- Rayonnement UV-A : modéré (atténué par les nuages et la pollution)
-
-## Prévisions par districts
-- Downtown / Renton : bruine acide légère, systèmes de neutralisation chimique actifs
-- Redmond / Puyallup : averses acides corrosives, accumulation de boues toxiques
-- Puget Sound / front de mer : vents froids du Pacifique, brume épaisse, humidité 98 %`}
+L'HARMONIE SERA RESTAURÉE.`}
 ];
 const HANDLES = {"Pigeon":["PG","#33ff55"],"Rail":["RL","#ffb000"],"Sœur_Sarah":["SS","#3a8bff"],"Mouse":["MO","#ff7a1a"],"Elena_M":["EM","#3a8bff"],"Anonyme":["??","#4f8a4f"]};
 const THREADS = [
@@ -287,4 +287,4 @@ const THREADS = [
   re:[["Pigeon","Fais gaffe : une GLACE brouilleuse derrière le nœud admin. Tu te fais éjecter."]]}
 ];
 const CATS=[["RUE & RUMEURS",["RUE & RUMEURS"]],["MATRICE & TECH",["MATRICE & TECH"]]];
-const DIRS=["/SAN-01","/RTG-SEATTLE","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
+const DIRS=["/RTG-SEATTLE","/SAN-01","/ES-02","/SPU-03","/CPU-04","/SPU-05","/ES-06","/SPU-07","/SPU-08","/CPU-09"];
